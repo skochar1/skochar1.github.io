@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         button.disabled = true;
         
         // Fetch the URL from your Apps Script app
-        fetch('https://script.google.com/macros/s/AKfycbwh5ZEwXqfxrm7NgnP-wmrOavmvkafhggicXlJTUY7st1mdMWh5Or5PBAjoJTpbDJHS/exec')
+        fetch('https://script.google.com/macros/s/AKfycbywpjdLUSxEFKsw0aXsqKx7S3dZpOPVbCzW-SrlF4zgSNe93naqUpjGaDynAMSrUAbORQ/exec')
             .then(response => response.text())
             .then(url => {
                 // Redirect the user to the fetched URL
