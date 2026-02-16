@@ -16,7 +16,7 @@ export default function App() {
               />
             </div>
             <div className="flex-1">
-              <h1 className="text-4xl mb-3 text-gray-900">Jane Smith</h1>
+              <h1 className="text-4xl mb-3 text-gray-900">Shreya Kochar</h1>
               <p className="text-xl text-gray-700 mb-4">
                 Pre-doctoral Research Fellow
               </p>
@@ -30,12 +30,12 @@ export default function App() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Building className="h-4 w-4" />
-                  <span>Room 412, Computer Science Building</span>
+                  <span>Pittsburgh, PA</span>
                 </div>
               </div>
               <div className="mt-4">
                 <a
-                  href="/Shreya_K_CV.pdf"
+                  href="/cv.pdf"
                   className="text-blue-600 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -52,22 +52,15 @@ export default function App() {
           <h2 className="text-2xl mb-4 text-gray-900">About Me</h2>
           <div className="space-y-4 text-gray-700">
             <p>
-              I am an Associate Professor in the Department of Computer Science at the
-              University of Technology, where I lead the Machine Learning and Data
-              Science Lab. My research focuses on developing novel algorithms for deep
-              learning, natural language processing, and computer vision.
+            I am a Predoctoral Research Fellow at Carnegie Mellon SCS (CyLab), advised by Professor Norman Sadeh. I recently completed my Master's in Computer Science at Columbia University.
             </p>
             <p>
-              Before joining the University of Technology, I was a postdoctoral
-              researcher at MIT and completed my Ph.D. at Stanford University. My work
-              has been published in top-tier conferences and journals including
-              NeurIPS, ICML, CVPR, and Nature Machine Intelligence.
-            </p>
+              My research interests lie at the intersection of privacy, security, law, and ethics. I'm very interested in game theory and formalisms for incentivizing corporations to follow privacy regulations.
+              My current work has to do with regulating IoT data collection and exploring state-level privacy legislature. I enjoy writing both technical and law review works.            </p>
             <p>
-              I am passionate about bridging the gap between theoretical research and
-              practical applications, and I actively collaborate with industry partners
-              to deploy machine learning solutions in healthcare, education, and
-              environmental sustainability.
+              Outside of research, I write on my blog and Substack about emerging
+              privacy issues and new papers in the field. I also enjoy lifting at
+              the gym and reading books with political commentary.
             </p>
           </div>
         </section>
