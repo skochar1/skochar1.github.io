@@ -1,10 +1,48 @@
-import { Mail, Building } from "lucide-react";
+import { Mail, Building, Heart, Star, Sparkles, Flower2, Coffee, BookOpen } from "lucide-react";
+import { motion } from "motion/react";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
+
+const backgroundIcons = [
+  { Icon: Heart, x: "8%", y: "15%", delay: 0 },
+  { Icon: Star, x: "88%", y: "10%", delay: 0.5 },
+  { Icon: Sparkles, x: "12%", y: "55%", delay: 1 },
+  { Icon: Flower2, x: "92%", y: "45%", delay: 1.5 },
+  { Icon: Coffee, x: "18%", y: "35%", delay: 2 },
+  { Icon: BookOpen, x: "82%", y: "70%", delay: 2.5 },
+  { Icon: Heart, x: "75%", y: "20%", delay: 3 },
+  { Icon: Star, x: "22%", y: "80%", delay: 3.5 },
+  { Icon: Sparkles, x: "78%", y: "50%", delay: 4 },
+  { Icon: Flower2, x: "5%", y: "90%", delay: 4.5 },
+  { Icon: Coffee, x: "85%", y: "85%", delay: 5 },
+];
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <div className="max-w-4xl mx-auto px-6 py-12">
+    <div className="min-h-screen bg-white relative overflow-hidden">
+      {/* Floating background icons */}
+      {backgroundIcons.map((item, index) => (
+        <motion.div
+          key={index}
+          className="absolute"
+          style={{ left: item.x, top: item.y }}
+          initial={{ opacity: 0, scale: 0, rotate: 0 }}
+          animate={{
+            opacity: 0.15,
+            scale: [0.8, 1.2, 0.8],
+            rotate: [0, 10, -10, 0],
+          }}
+          transition={{
+            duration: 4,
+            delay: item.delay,
+            repeat: Infinity,
+            repeatType: "reverse",
+          }}
+        >
+          <item.Icon size={36} className="text-purple-300" />
+        </motion.div>
+      ))}
+
+      <div className="max-w-4xl mx-auto px-6 py-12 relative z-10">
         {/* Header Section */}
         <div className="mb-16 pb-8 border-b border-gray-300">
           <div className="flex flex-col md:flex-row gap-8 items-start">
