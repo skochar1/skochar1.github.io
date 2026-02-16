@@ -35,7 +35,7 @@ export default function App() {
               </div>
               <div className="mt-4">
                 <a
-                  href="/cv.pdf"
+                  href="/Shreya_K_CV.pdf"
                   className="text-blue-600 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
