@@ -10,7 +10,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1758685734511-4f49ce9a382b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBhY2FkZW1pYyUyMHJlc2VhcmNoZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzEyMDU3NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://drive.google.com/file/d/1iXwmOhJMcCcgU4y41jrM_VnFM4bUozmn/view?usp=sharing"
                 alt="Profile"
                 className="w-48 h-48 object-cover"
               />
@@ -18,14 +18,14 @@ export default function App() {
             <div className="flex-1">
               <h1 className="text-4xl mb-3 text-gray-900">Jane Smith</h1>
               <p className="text-xl text-gray-700 mb-4">
-                Associate Professor of Computer Science
+                Pre-doctoral Research Fellow
               </p>
-              <p className="text-gray-700 mb-4">University of Technology</p>
+              <p className="text-gray-700 mb-4">Carnegie Mellon University</p>
               <div className="space-y-2 text-gray-700">
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  <a href="mailto:j.smith@university.edu" className="hover:underline">
-                    j.smith@university.edu
+                  <a href="mailto:shreyako@cs.cmu.edu" className="hover:underline">
+                    shreyako@cs.cmu.edu
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
