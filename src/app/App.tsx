@@ -1,4 +1,4 @@
-import { Mail, Building, Heart, Star, Sparkles, Flower2, Coffee, BookOpen } from "lucide-react";
+import { Mail, Building, Heart, Star, Sparkles, Flower2, Coffee, BookOpen, Code, Terminal, Braces, Binary, Shield, Lock, Cpu, Database } from "lucide-react";
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 
@@ -14,6 +14,14 @@ const backgroundIcons = [
   { Icon: Sparkles, x: "78%", y: "50%", delay: 4 },
   { Icon: Flower2, x: "5%", y: "90%", delay: 4.5 },
   { Icon: Coffee, x: "85%", y: "85%", delay: 5 },
+  { Icon: Code, x: "30%", y: "12%", delay: 0.3 },
+  { Icon: Terminal, x: "65%", y: "38%", delay: 1.2 },
+  { Icon: Braces, x: "45%", y: "72%", delay: 2.2 },
+  { Icon: Binary, x: "55%", y: "8%", delay: 3.2 },
+  { Icon: Shield, x: "40%", y: "42%", delay: 1.8 },
+  { Icon: Lock, x: "70%", y: "62%", delay: 3.8 },
+  { Icon: Cpu, x: "35%", y: "88%", delay: 4.2 },
+  { Icon: Database, x: "60%", y: "28%", delay: 2.8 },
 ];
 
 export default function App() {
