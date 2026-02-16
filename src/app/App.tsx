@@ -100,7 +100,7 @@ export default function App() {
           <h2 className="text-2xl mb-4 text-gray-900">About Me</h2>
           <div className="space-y-4 text-gray-700">
             <p>
-            I am a Pre-doctoral Research Fellow at Carnegie Mellon SCS (CyLab), advised by Professor Norman Sadeh. I recently completed my Master's in Computer Science at Columbia University.
+            I am a Pre-doctoral Research Fellow at Carnegie Mellon SCS (CyLab/S3D), advised by Professor Norman Sadeh. I recently completed my Master's in Computer Science at Columbia University.
             </p>
             <p>
               My research interests lie at the intersection of privacy, security, law, and ethics. I'm very interested in game theory and formalisms for incentivizing corporations to follow privacy regulations.
@@ -127,131 +127,56 @@ export default function App() {
 
         {/* Publications */}
         <section className="mb-12 pb-8 border-b border-gray-300">
-          <h2 className="text-2xl mb-6 text-gray-900">Publications [TBD, placeholder]</h2>
+          <h2 className="text-2xl mb-6 text-gray-900">Works and Publications [TBD, placeholder]</h2>
           <div className="space-y-6">
             <div>
               <p className="text-gray-900 mb-1">
                 <strong>
-                  [Efficient Transformers for Multimodal Learning]
+                  [Quantifying Creepiness: Using Predictive Privacy to Measure Privacy Harms]
                 </strong>
               </p>
               <p className="text-gray-700 mb-1">
-                Smith, J., Johnson, A., & Williams, B.
+                <b>Kochar, S.</b> & Bellovin, S.M.
               </p>
               <p className="text-gray-600 mb-1">
-                Advances in Neural Information Processing Systems (NeurIPS), 2025
+                SSRN
               </p>
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Paper]
+              <a href="ssrn.com/abstract=5939183" className="text-blue-600 hover:underline text-sm">
+                [Paper pre-print]
               </a>
               {" "}
               <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Code]
+                [Code (to be added)]
               </a>
             </div>
 
             <div>
               <p className="text-gray-900 mb-1">
                 <strong>
-                  Cross-lingual Transfer Learning in Low-Resource Settings
+                  Predictive Privacy: A Framework for Quantifying Harm
                 </strong>
               </p>
-              <p className="text-gray-700 mb-1">Smith, J., & Garcia, M.</p>
+              <p className="text-gray-700 mb-1"><b>Kochar, S.</b></p>
               <p className="text-gray-600 mb-1">
-                Association for Computational Linguistics (ACL), 2024
+                Columbia Academic Commons
               </p>
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Paper]
+              <a href="https://academiccommons.columbia.edu/doi/10.7916/82f3-e448" className="text-blue-600 hover:underline text-sm">
+                [Master's Thesis]
               </a>
               {" "}
               <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Code]
+                [Code (to be added)]
               </a>
             </div>
 
-            <div>
-              <p className="text-gray-900 mb-1">
-                <strong>
-                  Adaptive Neural Networks for Medical Image Segmentation
-                </strong>
-              </p>
-              <p className="text-gray-700 mb-1">
-                Chen, L., Smith, J., & Patel, R.
-              </p>
-              <p className="text-gray-600 mb-1">
-                IEEE Transactions on Medical Imaging, 2024
-              </p>
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Paper]
-              </a>
-            </div>
-
-            <div>
-              <p className="text-gray-900 mb-1">
-                <strong>Interpretable Machine Learning for Climate Prediction</strong>
-              </p>
-              <p className="text-gray-700 mb-1">
-                Smith, J., Anderson, K., & Lee, S.
-              </p>
-              <p className="text-gray-600 mb-1">
-                Nature Machine Intelligence, 2023
-              </p>
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Paper]
-              </a>
-              {" "}
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Data]
-              </a>
-            </div>
-
-            <div>
-              <p className="text-gray-900 mb-1">
-                <strong>Few-Shot Learning with Graph Neural Networks</strong>
-              </p>
-              <p className="text-gray-700 mb-1">Smith, J., & Brown, T.</p>
-              <p className="text-gray-600 mb-1">
-                International Conference on Machine Learning (ICML), 2023
-              </p>
-              <p className="text-amber-600 mb-1">Best Paper Award</p>
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Paper]
-              </a>
-              {" "}
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Code]
-              </a>
-            </div>
-
-            <div>
-              <p className="text-gray-900 mb-1">
-                <strong>
-                  Robust Vision Transformers for Real-World Applications
-                </strong>
-              </p>
-              <p className="text-gray-700 mb-1">
-                Smith, J., Zhang, Y., & Kumar, A.
-              </p>
-              <p className="text-gray-600 mb-1">
-                Computer Vision and Pattern Recognition (CVPR), 2022
-              </p>
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Paper]
-              </a>
-              {" "}
-              <a href="#" className="text-blue-600 hover:underline text-sm">
-                [Code]
-              </a>
-            </div>
-          </div>
           <p className="mt-6">
             <a
-              href="https://scholar.google.com"
+              href="https://scholar.google.com/citations?user=R3Tcr_YAAAAJ&hl=en"
               className="text-blue-600 hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              View all publications on Google Scholar
+              View all works on Google Scholar
             </a>
           </p>
         </section>
