@@ -132,7 +132,7 @@ export default function App() {
             <div>
               <p className="text-gray-900 mb-1">
                 <strong>
-                  [Quantifying Creepiness: Using Predictive Privacy to Measure Privacy Harms]
+                  Quantifying Creepiness: Using Predictive Privacy to Measure Privacy Harms
                 </strong>
               </p>
               <p className="text-gray-700 mb-1">
@@ -141,7 +141,7 @@ export default function App() {
               <p className="text-gray-600 mb-1">
                 SSRN
               </p>
-              <a href="ssrn.com/abstract=5939183" className="text-blue-600 hover:underline text-sm">
+              <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5939183" className="text-blue-600 hover:underline text-sm">
                 [Paper pre-print]
               </a>
               {" "}
