@@ -168,7 +168,7 @@ export default function App() {
                 [Code (to be added)]
               </a>
             </div>
-
+          </div>
           <p className="mt-6">
             <a
               href="https://scholar.google.com/citations?user=R3Tcr_YAAAAJ&hl=en"
