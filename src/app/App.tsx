@@ -3,25 +3,27 @@ import { motion } from "motion/react";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 
 const backgroundIcons = [
-  { Icon: Heart, x: "8%", y: "15%", delay: 0 },
-  { Icon: Star, x: "88%", y: "10%", delay: 0.5 },
-  { Icon: Sparkles, x: "12%", y: "55%", delay: 1 },
-  { Icon: Flower2, x: "92%", y: "45%", delay: 1.5 },
-  { Icon: Coffee, x: "18%", y: "35%", delay: 2 },
-  { Icon: BookOpen, x: "82%", y: "70%", delay: 2.5 },
-  { Icon: Heart, x: "75%", y: "20%", delay: 3 },
-  { Icon: Star, x: "22%", y: "80%", delay: 3.5 },
-  { Icon: Sparkles, x: "78%", y: "50%", delay: 4 },
-  { Icon: Flower2, x: "5%", y: "90%", delay: 4.5 },
-  { Icon: Coffee, x: "85%", y: "85%", delay: 5 },
-  { Icon: Code, x: "30%", y: "12%", delay: 0.3 },
-  { Icon: Terminal, x: "65%", y: "38%", delay: 1.2 },
-  { Icon: Braces, x: "45%", y: "72%", delay: 2.2 },
-  { Icon: Binary, x: "55%", y: "8%", delay: 3.2 },
-  { Icon: Shield, x: "40%", y: "42%", delay: 1.8 },
-  { Icon: Lock, x: "70%", y: "62%", delay: 3.8 },
-  { Icon: Cpu, x: "35%", y: "88%", delay: 4.2 },
-  { Icon: Database, x: "60%", y: "28%", delay: 2.8 },
+  // Left side
+  { Icon: Heart, x: "3%", y: "10%", delay: 0 },
+  { Icon: Sparkles, x: "8%", y: "30%", delay: 1 },
+  { Icon: Coffee, x: "5%", y: "50%", delay: 2 },
+  { Icon: Code, x: "10%", y: "18%", delay: 0.3 },
+  { Icon: Shield, x: "2%", y: "65%", delay: 1.8 },
+  { Icon: Cpu, x: "7%", y: "82%", delay: 4.2 },
+  { Icon: Binary, x: "12%", y: "42%", delay: 3.2 },
+  { Icon: Flower2, x: "4%", y: "92%", delay: 4.5 },
+  { Icon: Braces, x: "11%", y: "72%", delay: 2.2 },
+  // Right side
+  { Icon: Star, x: "89%", y: "8%", delay: 0.5 },
+  { Icon: Flower2, x: "93%", y: "40%", delay: 1.5 },
+  { Icon: BookOpen, x: "87%", y: "60%", delay: 2.5 },
+  { Icon: Heart, x: "91%", y: "22%", delay: 3 },
+  { Icon: Terminal, x: "95%", y: "35%", delay: 1.2 },
+  { Icon: Lock, x: "88%", y: "55%", delay: 3.8 },
+  { Icon: Database, x: "92%", y: "75%", delay: 2.8 },
+  { Icon: Star, x: "90%", y: "88%", delay: 3.5 },
+  { Icon: Coffee, x: "86%", y: "82%", delay: 5 },
+  { Icon: Sparkles, x: "94%", y: "15%", delay: 4 },
 ];
 
 export default function App() {
