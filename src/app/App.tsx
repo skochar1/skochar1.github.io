@@ -58,7 +58,7 @@ export default function App() {
               My research interests lie at the intersection of privacy, security, law, and ethics. I'm very interested in game theory and formalisms for incentivizing corporations to follow privacy regulations.
               My current work has to do with regulating IoT data collection and exploring state-level privacy legislature. I enjoy writing both technical and law review works.            </p>
             <p>
-              Outside of research, I write on my blog and Substack about emerging
+              Outside of research, I write on Substack about emerging
               privacy issues and new papers in the field. I also enjoy lifting at
               the gym and reading books with political commentary.
             </p>
@@ -69,22 +69,22 @@ export default function App() {
         <section className="mb-12 pb-8 border-b border-gray-300">
           <h2 className="text-2xl mb-4 text-gray-900">Research Interests</h2>
           <ul className="list-disc list-inside space-y-2 text-gray-700">
-            <li>Machine Learning and Deep Learning</li>
-            <li>Natural Language Processing</li>
-            <li>Computer Vision</li>
-            <li>Multimodal Learning</li>
-            <li>AI for Healthcare and Sustainability</li>
+            <li>Differential privacy</li>
+            <li>Synthetic data generation and applications</li>
+            <li>AI and data ethics</li>
+            <li>U.S. privacy legislature (at the state and federal level)</li>
+            <li>Privacy and economic theory</li>
           </ul>
         </section>
 
         {/* Publications */}
         <section className="mb-12 pb-8 border-b border-gray-300">
-          <h2 className="text-2xl mb-6 text-gray-900">Selected Publications</h2>
+          <h2 className="text-2xl mb-6 text-gray-900">Publications [TBD, placeholder]</h2>
           <div className="space-y-6">
             <div>
               <p className="text-gray-900 mb-1">
                 <strong>
-                  Efficient Transformers for Multimodal Learning
+                  [Efficient Transformers for Multimodal Learning]
                 </strong>
               </p>
               <p className="text-gray-700 mb-1">
@@ -212,12 +212,21 @@ export default function App() {
         <section className="mb-12">
           <h2 className="text-2xl mb-4 text-gray-900">Awards and Honors</h2>
           <ul className="space-y-3 text-gray-700">
-            <li>NSF CAREER Award, National Science Foundation, 2024</li>
-            <li>Best Paper Award, International Conference on Machine Learning (ICML), 2023</li>
-            <li>Outstanding Young Researcher Award, Association for Computational Linguistics, 2022</li>
-            <li>Google Research Scholar Award, 2021</li>
-            <li>MIT Technology Review 35 Under 35, 2021</li>
-            <li>Excellence in Teaching Award, University of Technology, 2024</li>
+            <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by the National Science Foundation, 2025–2028).</li>
+            <li>Law paper draft "Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025. Invited to present.</li>
+            <li>Invited to roundtable on law and computer science. Hosted at University of Pennsylvania (2025).</li>
+            <li>Accepted to attend The Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025, with a EUR 1300 travel stipend.</li>
+            <li>Received a $750 NSF travel grant to attend ACM Symposium (CS&amp;Law '25).</li>
+            <li>Invited to participate in Stanford HAI's invite-only "World Wide Knowledge AI Assistant" workshop in person.</li>
+            <li>Invited to attend Stanford HAI's invite-only "Trusting Digital Content in the Age of AI" conference in person.</li>
+            <li>Received a scholarship covering hotel, ticket, and expenses to attend TrustCon 2024.</li>
+            <li>Accepted to attend "Designing Safe(r) Digital Intimacy" Workshop @ Berkman Klein Center for Internet &amp; Society. White paper in progress.</li>
+            <li>Selected to supervise/advise an undergraduate student for research by Professor Steven M. Bellovin.</li>
+            <li>Invited to represent Professor Steven M. Bellovin at a roundtable on law and computer science. Hosted at University of Pennsylvania (2024).</li>
+            <li>Selected as a Data Science Institute Scholar at Columbia. Received a $3000 research stipend.</li>
+            <li>Received a $1000 NSF travel grant to attend ACM Symposium (CS&amp;Law '24).</li>
+            <li>Received a $500 travel grant to attend Stanford Treehacks by Stanford CS.</li>
+            <li>Passed Azure Certified exams for AI Engineer and Azure Fundamentals.</li>
           </ul>
         </section>
       </div>
