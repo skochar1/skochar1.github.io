@@ -37,7 +37,7 @@ export default function App() {
           style={{ left: item.x, top: item.y }}
           initial={{ opacity: 0, scale: 0, rotate: 0 }}
           animate={{
-            opacity: 0.4,
+            opacity: 0.6,
             scale: [0.8, 1.2, 0.8],
             rotate: [0, 10, -10, 0],
           }}
