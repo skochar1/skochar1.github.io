@@ -166,6 +166,10 @@ export default function App() {
               <span className="text-gray-500 whitespace-nowrap ml-4">July 2025 - Sept. 2025</span>
             </li>
             <li className="flex justify-between">
+              <span><strong>Research Supervisor</strong>, appointed by Professor Steven M. Bellovin to mentor and oversee an undergraduate student on our ongoing project</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">2023 – 2025</span>
+            </li>
+            <li className="flex justify-between">
               <span><strong>Masters Thesis Student</strong> working with Professor Steven M. Bellovin</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2023 - May 2025</span>
             </li>
