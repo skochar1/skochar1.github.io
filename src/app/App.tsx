@@ -160,7 +160,7 @@ export default function App() {
             <li>Differential privacy</li>
             <li>Synthetic data generation and applications</li>
             <li>AI and data ethics</li>
-            <li>U.S. privacy legislature (at the state and federal level)</li>
+            <li>U.S. legislation</li>
             <li>Privacy and economic theory</li>
           </ul>
         </section>
