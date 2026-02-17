@@ -125,6 +125,57 @@ export default function App() {
           </ul>
         </section>
 
+        {/* Appointments */}
+        <section className="mb-12 pb-8 border-b border-gray-300">
+          <h2 className="text-2xl mb-4 text-gray-900">Appointments and Experience</h2>
+          <ul className="space-y-3 text-gray-700">
+            <li className="flex justify-between">
+              <span><strong>Pre-doctoral Fellow</strong> at Carnegie Mellon University</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Oct. 2025 - Present</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Founding Engineer</strong> at Avenio.ai</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">July 2025 - Sept. 2025</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Masters Thesis Student</strong> working with Professor Steven M. Bellovin</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2023 - May 2025</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Research Assistant</strong> working with Professor Suman Jana</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2023 - Aug. 2023</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Software &amp; Data Engineer</strong> at Microsoft C&amp;AI</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Nov. 2022 - July 2025</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Software Engineering Intern</strong> at Microsoft C&amp;AI</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">May 2022 - Aug. 2022</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Explore Intern</strong> at Microsoft C&amp;AI</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">May 2021 - Aug. 2021</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Research Assistant</strong> at MIT's Boyden Lab</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Aug. 2020 - Dec. 2020</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Research Intern</strong> at MIT's Littleton Lab</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">May 2020 - Aug. 2020</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Research Assistant</strong> at MIT's Sur Lab</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2020 - May 2020</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Research Assistant</strong> at the Wiest Lab</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Aug. 2019 - Dec. 2019</span>
+            </li>
+          </ul>
+        </section>
+
         {/* Publications */}
         <section className="mb-12 pb-8 border-b border-gray-300">
           <h2 className="text-2xl mb-6 text-gray-900">Works and Publications [TBD, placeholder]</h2>
