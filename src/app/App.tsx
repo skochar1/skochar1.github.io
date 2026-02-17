@@ -166,10 +166,6 @@ export default function App() {
               <span className="text-gray-500 whitespace-nowrap ml-4">July 2025 - Sept. 2025</span>
             </li>
             <li className="flex justify-between">
-              <span><strong>Research Supervisor</strong>, appointed by Professor Steven M. Bellovin to mentor and oversee an undergraduate student on our ongoing project</span>
-              <span className="text-gray-500 whitespace-nowrap ml-4">2023 – 2025</span>
-            </li>
-            <li className="flex justify-between">
               <span><strong>Masters Thesis Student</strong> working with Professor Steven M. Bellovin</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2023 - May 2025</span>
             </li>
@@ -216,6 +212,10 @@ export default function App() {
         <section className="mb-12 pb-8 border-b border-gray-300">
           <h2 className="text-2xl mb-4 text-gray-900">Teaching</h2>
           <ul className="space-y-3 text-gray-700">
+          <li className="flex justify-between">
+              <span><strong>Research Supervisor</strong> appointed by Professor Steven M. Bellovin to mentor and oversee an undergraduate student on our ongoing project</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Spring 2024 – Present</span>
+            </li>
             <li className="flex justify-between">
               <span><strong>Teaching Assistant</strong> for Topics in Software Engineering (COMS E6156), Columbia University</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">Spring 2025</span>
@@ -301,7 +301,6 @@ export default function App() {
             <li>Accepted to attend The Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025, with a EUR 1300 travel stipend.</li>
             <li>Received a $750 NSF travel grant to attend ACM Symposium (CS&amp;Law '25).</li>
             <li>Received a scholarship covering hotel, ticket, and expenses to attend TrustCon 2024.</li>
-            <li>Accepted to attend "Designing Safe(r) Digital Intimacy" Workshop @ Berkman Klein Center for Internet &amp; Society. White paper in progress.</li>
             <li>Invited to represent Professor Steven M. Bellovin at a roundtable on law and computer science. Hosted at University of Pennsylvania (2024).</li>
             <li>Selected as a Data Science Institute Scholar at Columbia. Received a $3000 research stipend.</li>
             <li>Received a $1000 NSF travel grant to attend ACM Symposium (CS&amp;Law '24).</li>
