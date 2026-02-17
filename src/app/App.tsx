@@ -81,15 +81,9 @@ export default function App() {
                   <span>Pittsburgh, PA</span>
                 </div>
               </div>
-              <div className="mt-4 flex flex-wrap gap-4">
-                <a
-                  href="/Shreya_K_CV.pdf"
-                  className="text-blue-600 hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Curriculum Vitae (PDF)
-                </a>
+              <div className="mt-4 flex flex-wrap items-center gap-2">
+                <span className="text-gray-500">Curriculum Vitae [TBA]</span>
+                <span className="text-gray-400">|</span>
                 <a
                   href="https://shreyakochar.substack.com/"
                   className="text-blue-600 hover:underline"
@@ -98,6 +92,7 @@ export default function App() {
                 >
                   Substack
                 </a>
+                <span className="text-gray-400">|</span>
                 <a
                   href="https://www.linkedin.com/in/shreyakochar/"
                   className="text-blue-600 hover:underline"
