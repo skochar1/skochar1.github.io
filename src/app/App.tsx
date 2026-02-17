@@ -110,7 +110,7 @@ export default function App() {
               <p>
                 Outside of research, I write on Substack about emerging
                 privacy issues and new papers in the field. I also enjoy lifting at
-                the gym and reading books with political commentary.
+                the gym and reading.
               </p>
             </div>
           </section>
@@ -119,17 +119,18 @@ export default function App() {
             <h2 className="text-2xl mb-4 text-gray-900">Education</h2>
             <ul className="space-y-4 text-gray-700">
               <li>
-                <p className="font-bold">PhD (School TBD)</p>
+                <p className="font-bold">[School TBA]</p>
+                <p>Incoming Ph.D. student</p>
                 <p className="text-gray-500 text-sm">Fall 2026 - Onwards</p>
               </li>
               <li>
                 <p className="font-bold">Columbia University</p>
-                <p>M.S. in Computer Science</p>
+                <p>Masters in Computer Science</p>
                 <p className="text-gray-500 text-sm">Jan. 2023 - May 2025</p>
               </li>
               <li>
                 <p className="font-bold">Wellesley College</p>
-                <p>B.A. in Computer Science, Magna Cum Laude</p>
+                <p>Bachelors in Computer Science</p>
                 <p className="text-gray-500 text-sm">Aug. 2019 - May 2022</p>
               </li>
               <li>
