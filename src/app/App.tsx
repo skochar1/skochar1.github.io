@@ -176,6 +176,29 @@ export default function App() {
           </ul>
         </section>
 
+        {/* Teaching */}
+        <section className="mb-12 pb-8 border-b border-gray-300">
+          <h2 className="text-2xl mb-4 text-gray-900">Teaching</h2>
+          <ul className="space-y-3 text-gray-700">
+            <li className="flex justify-between">
+              <span><strong>Teaching Assistant</strong> for Topics in Software Engineering (COMS E6156), Columbia University</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Spring 2025</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Teaching Assistant</strong> for Advanced Software Engineering (COMS W4156), Columbia University</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Fall 2024</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Teaching Assistant</strong> for Artificial Intelligence (CS232), Wellesley College</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Spring 2022</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Teaching Assistant</strong> for Intro to Python (CS111), Wellesley College</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Fall 2020</span>
+            </li>
+          </ul>
+        </section>
+
         {/* Publications */}
         <section className="mb-12 pb-8 border-b border-gray-300">
           <h2 className="text-2xl mb-6 text-gray-900">Works and Publications [TBD, placeholder]</h2>
