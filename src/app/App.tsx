@@ -159,15 +159,19 @@ export default function App() {
           <h2 className="text-2xl mb-4 text-gray-900">Appointments and Experience</h2>
           <ul className="space-y-3 text-gray-700">
             <li className="flex justify-between">
-              <span><strong>Pre-doctoral Fellow</strong> at Carnegie Mellon University</span>
+              <span><strong>Pre-doctoral Fellow</strong> at Carnegie Mellon University; advised by Norman Sadeh</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">Oct. 2025 - Present</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Pre-doctoral Fellow</strong> at University of Chicago; advised by Professor Nick Feamster</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2025 - Oct. 2025</span>
             </li>
             <li className="flex justify-between">
               <span><strong>Founding Engineer</strong> at Avenio.ai</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">July 2025 - Sept. 2025</span>
             </li>
             <li className="flex justify-between">
-              <span><strong>Masters Thesis Student</strong> working with Professor Steven M. Bellovin</span>
+              <span><strong>Masters Thesis Student</strong> advised by Professor Steven M. Bellovin</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2023 - May 2025</span>
             </li>
             <li className="flex justify-between">
