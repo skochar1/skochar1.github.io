@@ -95,23 +95,51 @@ export default function App() {
           </div>
         </div>
 
-        {/* About Me */}
-        <section className="mb-12 pb-8 border-b border-gray-300">
-          <h2 className="text-2xl mb-4 text-gray-900">About Me</h2>
-          <div className="space-y-4 text-gray-700">
-            <p>
-            I am a Pre-doctoral Research Fellow at Carnegie Mellon SCS (CyLab/S3D), advised by Professor Norman Sadeh. I recently completed my Master's in Computer Science at Columbia University.
-            </p>
-            <p>
-              My research interests lie at the intersection of privacy, security, law, and ethics. I'm very interested in game theory and formalisms for incentivizing corporations to follow privacy regulations.
-              My current work has to do with regulating IoT data collection and exploring state-level privacy legislature. I enjoy writing both technical and law review works.            </p>
-            <p>
-              Outside of research, I write on Substack about emerging
-              privacy issues and new papers in the field. I also enjoy lifting at
-              the gym and reading books with political commentary.
-            </p>
-          </div>
-        </section>
+        {/* About Me & Education side by side */}
+        <div className="mb-12 pb-8 border-b border-gray-300 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <section>
+            <h2 className="text-2xl mb-4 text-gray-900">About Me</h2>
+            <div className="space-y-4 text-gray-700">
+              <p>
+                I am a Pre-doctoral Research Fellow at Carnegie Mellon SCS (CyLab/S3D), advised by Professor Norman Sadeh. I recently completed my Master's in Computer Science at Columbia University.
+              </p>
+              <p>
+                My research interests lie at the intersection of privacy, security, law, and ethics. I'm very interested in game theory and formalisms for incentivizing corporations to follow privacy regulations.
+                My current work has to do with regulating IoT data collection and exploring state-level privacy legislature. I enjoy writing both technical and law review works.
+              </p>
+              <p>
+                Outside of research, I write on Substack about emerging
+                privacy issues and new papers in the field. I also enjoy lifting at
+                the gym and reading books with political commentary.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl mb-4 text-gray-900">Education</h2>
+            <ul className="space-y-4 text-gray-700">
+              <li>
+                <p className="font-bold">PhD (School TBD)</p>
+                <p className="text-gray-500 text-sm">Fall 2026 - Onwards</p>
+              </li>
+              <li>
+                <p className="font-bold">Columbia University</p>
+                <p>M.S. in Computer Science</p>
+                <p className="text-gray-500 text-sm">Jan. 2023 - May 2025</p>
+              </li>
+              <li>
+                <p className="font-bold">Wellesley College</p>
+                <p>B.A. in Computer Science, Magna Cum Laude</p>
+                <p className="text-gray-500 text-sm">Aug. 2019 - May 2022</p>
+              </li>
+              <li>
+                <p className="font-bold">Massachusetts Institute of Technology</p>
+                <p>Cross Registered Student</p>
+                <p className="text-gray-500 text-sm">Aug. 2019 - May 2022</p>
+              </li>
+            </ul>
+          </section>
+        </div>
 
         {/* Research Interests */}
         <section className="mb-12 pb-8 border-b border-gray-300">
@@ -140,6 +168,10 @@ export default function App() {
             <li className="flex justify-between">
               <span><strong>Masters Thesis Student</strong> working with Professor Steven M. Bellovin</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2023 - May 2025</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Data Science Institute Scholar</strong> at Columbia's Bendesky Lab</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Jan. 2023 - Aug. 2023</span>
             </li>
             <li className="flex justify-between">
               <span><strong>Research Assistant</strong> working with Professor Suman Jana</span>
@@ -193,7 +225,7 @@ export default function App() {
               <span className="text-gray-500 whitespace-nowrap ml-4">Spring 2022</span>
             </li>
             <li className="flex justify-between">
-              <span><strong>Teaching Assistant</strong> for Intro to Python (CS111), Wellesley College</span>
+              <span><strong>Teaching Assistant</strong> for Introduction to Computer Science (CS111), Wellesley College</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">Fall 2020</span>
             </li>
           </ul>
@@ -259,21 +291,16 @@ export default function App() {
         <section className="mb-12">
           <h2 className="text-2xl mb-4 text-gray-900">Awards and Honors</h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
-            <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by the National Science Foundation, 2025–2028).</li>
-            <li>Law paper draft "Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025. Invited to present.</li>
+            <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
+            <li>Law paper draft "Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
             <li>Invited to roundtable on law and computer science. Hosted at University of Pennsylvania (2025).</li>
             <li>Accepted to attend The Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025, with a EUR 1300 travel stipend.</li>
             <li>Received a $750 NSF travel grant to attend ACM Symposium (CS&amp;Law '25).</li>
-            <li>Invited to participate in Stanford HAI's invite-only "World Wide Knowledge AI Assistant" workshop in person.</li>
-            <li>Invited to attend Stanford HAI's invite-only "Trusting Digital Content in the Age of AI" conference in person.</li>
             <li>Received a scholarship covering hotel, ticket, and expenses to attend TrustCon 2024.</li>
             <li>Accepted to attend "Designing Safe(r) Digital Intimacy" Workshop @ Berkman Klein Center for Internet &amp; Society. White paper in progress.</li>
-            <li>Selected to supervise/advise an undergraduate student for research by Professor Steven M. Bellovin.</li>
             <li>Invited to represent Professor Steven M. Bellovin at a roundtable on law and computer science. Hosted at University of Pennsylvania (2024).</li>
             <li>Selected as a Data Science Institute Scholar at Columbia. Received a $3000 research stipend.</li>
             <li>Received a $1000 NSF travel grant to attend ACM Symposium (CS&amp;Law '24).</li>
-            <li>Received a $500 travel grant to attend Stanford Treehacks by Stanford CS.</li>
-            <li>Passed Azure Certified exams for AI Engineer and Azure Fundamentals.</li>
           </ul>
         </section>
       </div>
