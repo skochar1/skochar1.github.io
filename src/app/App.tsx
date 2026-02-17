@@ -258,7 +258,7 @@ export default function App() {
         {/* Awards and Honors */}
         <section className="mb-12">
           <h2 className="text-2xl mb-4 text-gray-900">Awards and Honors</h2>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="list-disc list-inside space-y-3 text-gray-700">
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by the National Science Foundation, 2025–2028).</li>
             <li>Law paper draft "Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025. Invited to present.</li>
             <li>Invited to roundtable on law and computer science. Hosted at University of Pennsylvania (2025).</li>
