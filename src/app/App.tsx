@@ -60,7 +60,7 @@ export default function App() {
               <ImageWithFallback
                 src="/IMG_4889.jpg"
                 alt="Profile"
-                className="w-48 h-48 object-cover"
+                className="w-64 h-64 object-cover"
               />
             </div>
             <div className="flex-1">
