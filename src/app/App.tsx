@@ -303,7 +303,7 @@ export default function App() {
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
             <li>Law paper draft "Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
             <li>Invited to roundtable on law and computer science. Hosted at University of Pennsylvania (2025).</li>
-            <li>Accepted to attend The Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025, with a EUR 1300 travel stipend.</li>
+            <li>Accepted to attend The Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025.</li>
             <li>Received a $750 NSF travel grant to attend ACM Symposium (CS&amp;Law '25).</li>
             <li>Received a scholarship covering hotel, ticket, and expenses to attend TrustCon 2024.</li>
             <li>Invited to represent Professor Steven M. Bellovin at a roundtable on law and computer science. Hosted at University of Pennsylvania (2024).</li>
