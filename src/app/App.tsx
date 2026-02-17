@@ -81,14 +81,30 @@ export default function App() {
                   <span>Pittsburgh, PA</span>
                 </div>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 flex flex-wrap gap-4">
                 <a
-                  href="/cv.pdf"
+                  href="/Shreya_K_CV.pdf"
                   className="text-blue-600 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Curriculum Vitae (PDF)
+                </a>
+                <a
+                  href="https://shreyakochar.substack.com/"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Substack
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/shreyakochar/"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
                 </a>
               </div>
             </div>
