@@ -265,6 +265,9 @@ export default function App() {
                 <b>Kochar, S.</b> & Bellovin, S.M.
               </p>
               <p className="text-gray-600 mb-1">
+                GWU Journal of Law & Technology, Vol. 3, forthcoming
+              </p>
+              <p className="text-gray-600 mb-1">
                 SSRN
               </p>
               <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5939183" className="text-blue-600 hover:underline text-sm">
