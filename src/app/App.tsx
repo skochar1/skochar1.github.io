@@ -317,12 +317,9 @@ export default function App() {
             <li>Awarded the Jacobs School of Engineering Fellowship (full first-year PhD funding).</li>
             <li>Received a $1000 grant to attend USENIX NSDI ‘26.</li>
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
-            <li>Law paper draft "Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
-            <li>Invited to roundtable on law and computer science. Hosted at University of Pennsylvania (2025).</li>
+            <li>"Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
             <li>Accepted to attend The Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025.</li>
             <li>Received a $750 NSF travel grant to attend ACM Symposium (CS&amp;Law '25).</li>
-            <li>Received a scholarship covering hotel, ticket, and expenses to attend TrustCon 2024.</li>
-            <li>Invited to represent Professor Steven M. Bellovin at a roundtable on law and computer science. Hosted at University of Pennsylvania (2024).</li>
             <li>Selected as a Data Science Institute Scholar at Columbia. Received a $3000 research stipend.</li>
             <li>Received a $1000 NSF travel grant to attend ACM Symposium (CS&amp;Law '24).</li>
           </ul>
