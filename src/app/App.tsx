@@ -314,6 +314,8 @@ export default function App() {
         <section className="mb-12">
           <h2 className="text-2xl mb-4 text-gray-900">Awards and Honors</h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
+            <li>Awarded the Jacobs School of Engineering Fellowship (full first-year PhD funding).</li>
+            <li>Received a $1000 grant to attend USENIX NSDI ‘26.</li>
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
             <li>Law paper draft "Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
             <li>Invited to roundtable on law and computer science. Hosted at University of Pennsylvania (2025).</li>
