@@ -130,7 +130,7 @@ export default function App() {
             <h2 className="text-2xl mb-4 text-gray-900">Education</h2>
             <ul className="space-y-4 text-gray-700">
               <li>
-                <p className="font-bold">[School TBA]</p>
+                <p className="font-bold">University of California, San Diego</p>
                 <p>Incoming Ph.D. student</p>
                 <p className="text-gray-500 text-sm">Fall 2026 - Onwards</p>
               </li>
