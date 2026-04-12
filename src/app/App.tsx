@@ -107,7 +107,7 @@ export default function App() {
         </div>
 
         {/* About Me & Education side by side */}
-        <div className="mb-12 pb-8 border-b border-gray-300 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="mb-12">
           <section>
             <h2 className="text-2xl mb-4 text-gray-900">About Me</h2>
             <div className="space-y-4 text-gray-700">
@@ -154,8 +154,13 @@ export default function App() {
         </div>
 
         {/* Research Interests */}
-        <section className="mb-12 pb-8 border-b border-gray-300">
-          <h2 className="text-2xl mb-4 text-gray-900">Research Interests</h2>
+        <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+             Research Interests
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
           <ul className="list-disc list-inside space-y-2 text-gray-700">
             <li>Differential privacy</li>
             <li>Synthetic data generation and applications</li>
