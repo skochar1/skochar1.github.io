@@ -307,20 +307,35 @@ export default function App() {
           </p>
         </section>
 
-        {/* Awards and Honors */}
-        <section className="mb-12 pb-8 border-b last:border-none">
-          <h2 className="text-2xl mb-4 text-gray-900">Awards and Honors</h2>
-          <ul className="list-disc list-inside space-y-3 text-gray-700">
-            <li>Awarded the Jacobs School of Engineering Fellowship (full first-year PhD funding).</li>
-            <li>Received a $1000 grant to attend USENIX NSDI ‘26.</li>
-            <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
-            <li>"Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
-            <li>Accepted to attend The Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025.</li>
-            <li>Received a $750 NSF travel grant to attend ACM Symposium (CS&amp;Law '25).</li>
-            <li>Selected as a Data Science Institute Scholar at Columbia. Received a $3000 research stipend.</li>
-            <li>Received a $1000 NSF travel grant to attend ACM Symposium (CS&amp;Law '24).</li>
-          </ul>
-        </section>
+{/* Awards and Honors */}
+<section className="mb-14 border-t border-gray-200 pt-8">
+  <div className="mb-6 flex items-center justify-between">
+    <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+      Awards and Honors
+    </h2>
+    <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+  </div>
+
+  <ul className="space-y-3">
+    {[
+      "Awarded the Jacobs School of Engineering Fellowship (full first-year PhD funding).",
+      "Received a $1000 grant to attend USENIX NSDI ‘26.",
+      "Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).",
+      `"Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.`,
+      "Accepted to attend The Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025.",
+      "Received a $750 NSF travel grant to attend ACM Symposium (CS&Law '25).",
+      "Selected as a Data Science Institute Scholar at Columbia. Received a $3000 research stipend.",
+      "Received a $1000 NSF travel grant to attend ACM Symposium (CS&Law '24).",
+    ].map((item, i) => (
+      <li
+        key={i}
+        className="rounded-xl border border-gray-200 bg-white px-4 py-3 text-[15px] leading-7 text-gray-700 shadow-sm"
+      >
+        {item}
+      </li>
+    ))}
+  </ul>
+</section>
 
         {/* Invited Talks */}
         <section className="mb-12 pb-8 border-b last:border-none">
