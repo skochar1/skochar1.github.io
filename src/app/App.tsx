@@ -322,20 +322,22 @@ export default function App() {
           </ul>
         </section>
 
-        {/* Service */}
-        <section className="mb-12">
+        {/* Invited Talks */}
+        <section className="mb-12 pb-8 border-b last:border-none">
           <h2 className="text-2xl mb-4 text-gray-900">Invited Talks</h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
-            <li>TBA</li>
+            <li>Invited to present my master's dissertation and the "Predictive Privacy" framework at Carnegie Mellon University's "Current Topics in Privacy Seminar" series.</li>
+            <li>Invited to present the "Predictive Privacy" framework at the University of Pennsylvania Center for Technology, Innovation, & Competition's Roundtable on Law and Computer Science. Proceeding available on request.</li>
+            <li>Law paper draft "Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025. Invited to present. Proceeding available on request (Note: paper name changed to "Quantifying Creepiness: Using Predictive Privacy to Measure Privacy Harms")</li>
           </ul>
         </section>
 
 
         {/* Service */}
-        <section className="mb-12">
+        <section className="mb-12 pb-8 border-b last:border-none">
           <h2 className="text-2xl mb-4 text-gray-900">Service</h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
-            <li>TBA</li>
+            <li>Serving on IMC '26 Shadow Technical Program Committee (STPC).</li>
           </ul>
         </section>
       </div>
