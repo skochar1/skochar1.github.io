@@ -308,7 +308,7 @@ export default function App() {
         </section>
 
         {/* Awards and Honors */}
-        <section className="mb-14 border-t border-gray-200 pt-8">
+        <section className="mb-14">
           <div className="mb-6 flex items-center justify-between">
             <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
               Awards and Honors
