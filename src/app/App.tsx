@@ -328,8 +328,13 @@ export default function App() {
         </section>
 
         {/* Invited Talks */}
-        <section className="mb-12 pb-8 border-b last:border-none">
-          <h2 className="text-2xl mb-4 text-gray-900">Invited Talks</h2>
+        <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+             Invited Talks
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             <li>Invited to present my master's dissertation and the "Predictive Privacy" framework at Carnegie Mellon University's "Current Topics in Privacy Seminar" series.</li>
             <li>Invited to present the "Predictive Privacy" framework at the University of Pennsylvania Center for Technology, Innovation, & Competition's Roundtable on Law and Computer Science. Proceeding available on request.</li>
@@ -338,8 +343,13 @@ export default function App() {
         </section>
 
         {/* Service */}
-        <section className="mb-12 pb-8 border-b last:border-none">
-          <h2 className="text-2xl mb-4 text-gray-900">Service</h2>
+        <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+              Service
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             <li>Serving on IMC '26 Shadow Technical Program Committee (STPC).</li>
           </ul>
