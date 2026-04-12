@@ -172,6 +172,7 @@ export default function App() {
              Experience
             </h2>
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
           <ul className="space-y-3 text-gray-700">
             <li className="flex justify-between">
               <span><strong>Pre-doctoral Fellow</strong> at Carnegie Mellon University; advised by Professor Norman Sadeh</span>
@@ -235,6 +236,7 @@ export default function App() {
              Teaching
             </h2>
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
           <ul className="space-y-3 text-gray-700">
           <li className="flex justify-between">
               <span><strong>Research Supervisor</strong> appointed by Professor Steven M. Bellovin to mentor and oversee an undergraduate student on our ongoing project</span>
@@ -266,6 +268,7 @@ export default function App() {
              Projects and Publications (not up to date)
             </h2>
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
           <div className="space-y-6">
             <div>
               <p className="text-gray-900 mb-1">
