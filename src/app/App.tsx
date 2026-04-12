@@ -107,7 +107,7 @@ export default function App() {
         </div>
 
         {/* About Me & Education side by side */}
-        <div className="mb-12">
+        <div className="mb-12 pb-8 border-b border-gray-300 grid grid-cols-1 md:grid-cols-2 gap-8">
           <section>
             <h2 className="text-2xl mb-4 text-gray-900">About Me</h2>
             <div className="space-y-4 text-gray-700">
