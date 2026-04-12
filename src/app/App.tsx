@@ -166,8 +166,12 @@ export default function App() {
         </section>
 
         {/* Appointments */}
-        <section className="mb-12 pb-8 border-b border-gray-300">
-          <h2 className="text-2xl mb-4 text-gray-900">Appointments and Experience</h2>
+        <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+             Experience
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           <ul className="space-y-3 text-gray-700">
             <li className="flex justify-between">
               <span><strong>Pre-doctoral Fellow</strong> at Carnegie Mellon University; advised by Professor Norman Sadeh</span>
@@ -225,8 +229,12 @@ export default function App() {
         </section>
 
         {/* Teaching */}
-        <section className="mb-12 pb-8 border-b border-gray-300">
-          <h2 className="text-2xl mb-4 text-gray-900">Teaching</h2>
+        <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+             Teaching
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           <ul className="space-y-3 text-gray-700">
           <li className="flex justify-between">
               <span><strong>Research Supervisor</strong> appointed by Professor Steven M. Bellovin to mentor and oversee an undergraduate student on our ongoing project</span>
@@ -252,8 +260,12 @@ export default function App() {
         </section>
 
         {/* Publications */}
-        <section className="mb-12 pb-8 border-b border-gray-300">
-          <h2 className="text-2xl mb-6 text-gray-900">Projects and Publications</h2>
+        <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+             Projects and Publications (not up to date)
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           <div className="space-y-6">
             <div>
               <p className="text-gray-900 mb-1">
