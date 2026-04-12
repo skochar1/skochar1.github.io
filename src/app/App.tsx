@@ -321,6 +321,23 @@ export default function App() {
             <li>Received a $1000 NSF travel grant to attend ACM Symposium (CS&amp;Law '24).</li>
           </ul>
         </section>
+
+        {/* Service */}
+        <section className="mb-12">
+          <h2 className="text-2xl mb-4 text-gray-900">Invited Talks</h2>
+          <ul className="list-disc list-inside space-y-3 text-gray-700">
+            <li>TBA</li>
+          </ul>
+        </section>
+
+
+        {/* Service */}
+        <section className="mb-12">
+          <h2 className="text-2xl mb-4 text-gray-900">Service</h2>
+          <ul className="list-disc list-inside space-y-3 text-gray-700">
+            <li>TBA</li>
+          </ul>
+        </section>
       </div>
     </div>
   );
