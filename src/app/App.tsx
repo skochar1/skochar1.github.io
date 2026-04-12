@@ -308,7 +308,7 @@ export default function App() {
         </section>
 
         {/* Awards and Honors */}
-        <section className="mb-12">
+        <section className="mb-12 pb-8 border-b last:border-none">
           <h2 className="text-2xl mb-4 text-gray-900">Awards and Honors</h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             <li>Awarded the Jacobs School of Engineering Fellowship (full first-year PhD funding).</li>
