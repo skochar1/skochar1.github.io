@@ -308,8 +308,13 @@ export default function App() {
         </section>
 
         {/* Awards and Honors */}
-        <section className="mb-12 pb-8 border-b last:border-none">
-          <h2 className="text-2xl mb-4 text-gray-900">Awards and Honors</h2>
+        <section className="mb-14 border-t border-gray-200 pt-8">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+              Awards and Honors
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             <li>Awarded the Jacobs School of Engineering Fellowship (full first-year PhD funding).</li>
             <li>Received a $1000 grant to attend USENIX NSDI ‘26.</li>
