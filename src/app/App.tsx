@@ -162,10 +162,10 @@ export default function App() {
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           </div>
           <ul className="list-disc list-inside space-y-2 text-gray-700">
+            <li>Internet measurement and algorithmic auditing</li>
             <li>Differential privacy</li>
             <li>Synthetic data generation and applications</li>
-            <li>AI and data ethics</li>
-            <li>U.S. legislation</li>
+            <li>Data ethics and legislation</li>
             <li>Privacy and economic theory</li>
           </ul>
         </section>
