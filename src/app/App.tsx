@@ -163,7 +163,7 @@ export default function App() {
           </div>
           <ul className="list-disc list-inside space-y-2 text-gray-700">
             <li>Internet measurement and algorithmic auditing</li>
-            <l1>Usable global privacy infrastructure</l1>
+            <li>Usable global privacy infrastructure</li>
             <li>Privacy-preserving data generation</li>
             <li>Data ethics and legislation</li>
             <li>Privacy and economic theory</li>
