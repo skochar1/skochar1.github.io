@@ -100,8 +100,7 @@ export default function App() {
                   Substack
                 </a>
                 <span className="text-gray-400">|</span>
-                <span className="text-gray-500">Full CV available upon request</span>
-                <span className="text-gray-400">|</span>
+                <span className="text-gray-500">CV available upon request</span>
               </div>
             </div>
           </div>
