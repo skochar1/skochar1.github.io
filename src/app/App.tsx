@@ -82,7 +82,14 @@ export default function App() {
                 </div>
               </div>
               <div className="mt-4 flex flex-wrap items-center gap-2">
-                <span className="text-gray-500">Curriculum Vitae [TBA]</span>
+              <a
+                  href="https://www.linkedin.com/in/shreyakochar/"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
                 <span className="text-gray-400">|</span>
                 <a
                   href="https://shreyakochar.substack.com/"
@@ -93,14 +100,8 @@ export default function App() {
                   Substack
                 </a>
                 <span className="text-gray-400">|</span>
-                <a
-                  href="https://www.linkedin.com/in/shreyakochar/"
-                  className="text-blue-600 hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn
-                </a>
+                <span className="text-gray-500">Full CV available upon request</span>
+                <span className="text-gray-400">|</span>
               </div>
             </div>
           </div>
