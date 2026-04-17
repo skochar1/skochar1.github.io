@@ -112,7 +112,7 @@ export default function App() {
             <h2 className="text-2xl mb-4 text-gray-900">About Me</h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                I am a Pre-doctoral Research Fellow at Carnegie Mellon SCS (CyLab/S3D), advised by Professor Norman Sadeh. I recently completed my Master's in Computer Science at Columbia University.
+                I am a Pre-doctoral Research Fellow at Carnegie Mellon SCS (CyLab/S3D), advised by Professor Norman Sadeh. I will be starting my PhD in Fall 2026 at UCSD, advised by Professor Deepak Kumar.
               </p>
               <p>
                 My research interests lie at the intersection of privacy, security, law, and ethics. I'm very interested in game theory and formalisms for incentivizing corporations to follow privacy regulations.
