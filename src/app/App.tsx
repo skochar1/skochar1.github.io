@@ -163,8 +163,8 @@ export default function App() {
           </div>
           <ul className="list-disc list-inside space-y-2 text-gray-700">
             <li>Internet measurement and algorithmic auditing</li>
-            <li>Differential privacy</li>
-            <li>Synthetic data generation and applications</li>
+            <l1>Usable global privacy infrastructure</l1>
+            <li>Privacy-preserving data generation</li>
             <li>Data ethics and legislation</li>
             <li>Privacy and economic theory</li>
           </ul>
