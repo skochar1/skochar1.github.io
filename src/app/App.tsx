@@ -374,21 +374,6 @@ export default function App() {
             <li>Serving on ACM IMC '26 Shadow Technical Program Committee (STPC).</li>
           </ul>
         </section>
-
-        {/* Invited Talks */}
-        <section className="mb-14">
-          <div className="mb-6 flex items-center justify-between">
-            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
-             Current Affiliations
-            </h2>
-            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
-          </div>
-          <ul className="list-disc list-inside space-y-3 text-gray-700">
-            <li>CyLab at Carnegie Mellon University</li>
-            <li>[TBA]</li>
-            <li>[TBA]</li>
-          </ul>
-        </section>
       </div>
     </div>
   );
