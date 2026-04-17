@@ -211,10 +211,6 @@ export default function App() {
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           </div>
           <ul className="space-y-3 text-gray-700">
-          <li className="flex justify-between">
-              <span><strong>Research Supervisor</strong> appointed by Professor Steven M. Bellovin to mentor and oversee an undergraduate student on our ongoing project</span>
-              <span className="text-gray-500 whitespace-nowrap ml-4">Spring 2024 – Present</span>
-            </li>
             <li className="flex justify-between">
               <span><strong>Teaching Assistant</strong> for Topics in Software Engineering (COMS E6156), Columbia University</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">Spring 2025</span>
