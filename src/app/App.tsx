@@ -302,7 +302,7 @@ export default function App() {
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             <li>Awarded a $1025 grant to attend USENIX PEPR '26.</li>
             <li>Awarded the Jacobs School of Engineering Fellowship for first-year Ph.D. funding.</li>
-            <li>Received a $1000 grant to attend USENIX NSDI '26.</li>
+            <li>Awarded a $1000 grant to attend USENIX NSDI '26.</li>
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
             <li>"Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
             <li>Accepted to the Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025.</li>
