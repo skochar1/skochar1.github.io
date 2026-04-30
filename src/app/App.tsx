@@ -123,11 +123,21 @@ export default function App() {
                 privacy issues and new papers in the field. I also enjoy lifting at
                 the gym and reading.
               </p>
+            </div>
+          </section>
+
+        {/* Notices */}
+        <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+              Notices
+            </h2>
+            <div className="space-y-4 text-gray-700" />
               <p>
                 Starting Summer 2026, I will host a weekly reading group for topics in privacy and responsible computing with faculty and students spanning several universities. If this is of interest, please reach out so I can add you.  
               </p>
-            </div>
-          </section>
+          </div>
+        </section>
 
           <section>
             <h2 className="text-2xl mb-4 text-gray-900">Education</h2>
