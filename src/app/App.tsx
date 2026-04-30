@@ -123,6 +123,9 @@ export default function App() {
                 privacy issues and new papers in the field. I also enjoy lifting at
                 the gym and reading.
               </p>
+              <p>
+                Starting Summer 2026, I will host a weekly reading group for topics in privacy and responsible computing with faculty and students spanning several universities. If this is of interest, please reach out so I can add you.  
+              </p>
             </div>
           </section>
 
@@ -165,7 +168,7 @@ export default function App() {
             <li>Internet measurement and algorithmic auditing</li>
             <li>Usable global privacy infrastructure</li>
             <li>Privacy-preserving data generation</li>
-            <li>Data ethics and legislation</li>
+            <li>Data ethics, responsible computing, and legislation</li>
             <li>Privacy and economic theory</li>
           </ul>
         </section>
@@ -300,12 +303,13 @@ export default function App() {
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
+            <li>Awarded a $1025 grant to attend USENIX PEPR '26.</li>
             <li>Awarded the Jacobs School of Engineering Fellowship for first-year Ph.D. funding.</li>
-            <li>Received a $1000 grant to attend USENIX NSDI ‘26.</li>
+            <li>Received a $1000 grant to attend USENIX NSDI '26.</li>
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
             <li>"Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
             <li>Accepted to the Cornell, Maryland, Max Planck Pre-doctoral Research School in Computer Science (CMMRS) 2025.</li>
-            <li>Received a $750 NSF travel grant to attend ACM Symposium (CS&amp;Law '25).</li>
+            <li>Awarded a $750 NSF grant to attend ACM Symposium (CS&amp;Law '25).</li>
             <li>Selected as a Data Science Institute Scholar at Columbia. Received a $3000 research stipend.</li>
             <li>Received a $1000 NSF travel grant to attend ACM Symposium (CS&amp;Law '24).</li>
           </ul>
@@ -335,6 +339,7 @@ export default function App() {
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
+            <li>W3C Privacy Working Group - Invited Expert</li>
             <li>ACM CAIS '26 - Artifacts Evaluation Committee</li>
             <li>ACM IMC '26 - Shadow Technical Program Committee (STPC)</li>
           </ul>
