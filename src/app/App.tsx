@@ -72,8 +72,8 @@ export default function App() {
               <div className="space-y-2 text-gray-700">
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  <a href="mailto:shreyako@cs.cmu.edu" className="hover:underline">
-                    shreyako@cs.cmu.edu
+                  <a href="mailto:shreyako@cmu.edu" className="hover:underline">
+                    shreyako@cmu.edu
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
