@@ -76,12 +76,7 @@ export default function App() {
                     shreyako@cmu.edu
                   </a>
                 </div>
-                <div className="flex items-center gap-2">
-                  <Mail className="h-4 w-4" />
-                  <a href="mailto:shreya.kochar@mpi-sp.org" className="hover:underline">
-                    shreya.kochar@mpi-sp.org
-                  </a>
-                </div>
+                
                 <div className="flex items-center gap-2">
                   <Building className="h-4 w-4" />
                   <span>Pittsburgh, PA</span>
