@@ -77,6 +77,12 @@ export default function App() {
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
+                  <Mail className="h-4 w-4" />
+                  <a href="mailto:shreya.kochar@mpi-sp.org" className="hover:underline">
+                    shreya.kochar@mpi-sp.org
+                  </a>
+                </div>
+                <div className="flex items-center gap-2">
                   <Building className="h-4 w-4" />
                   <span>Pittsburgh, PA</span>
                 </div>
@@ -359,6 +365,21 @@ export default function App() {
             <li>ACM CAIS '26 - Artifacts Evaluation Committee</li>
             <li>ACM IMC '26 - Shadow Technical Program Committee (STPC)</li>
           </ul>
+        </section>
+        {/* Community Opportunities */}
+        <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+              Community Opportunities
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
+          <div className="space-y-2 text-gray-700">
+            <p className="font-semibold">Responsible Computing &amp; Privacy Reading Group</p>
+            <p>
+              I organize a weekly online reading group on privacy and responsible computing, open to researchers at all levels. Current members include professors, students, and industry/external researchers. We meet Fridays 3:30–4:30 PM EST. Email me if you'd like to join.
+            </p>
+          </div>
         </section>
       </div>
     </div>
