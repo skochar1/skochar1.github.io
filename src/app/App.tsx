@@ -176,24 +176,6 @@ export default function App() {
           </ul>
         </section>
 
-        {/* Ongoing Collaborations and Affiliations */}
-        <section className="mb-14">
-          <div className="mb-6 flex items-center justify-between">
-            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
-             Ongoing Collaborations and Affiliations
-            </h2>
-            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
-          </div>
-          <ul className="space-y-3 text-gray-700">
-            <li className="flex justify-between">
-              <span><strong>Affiliate Researcher</strong> at privacy-tech-lab, Wesleyan University; working with Professor Sebastian Zimmeck on Global Privacy Controls.</span>
-            </li>
-            <li className="flex justify-between">
-              <span><strong>Affiliate Researcher</strong> at Max Planck Institute for Security and Privacy; working with Professor Asia Biega on consent and ownership models.</span>
-            </li>
-          </ul>
-        </section>
-
         {/* Appointments */}
         <section className="mb-14">
           <div className="mb-6 flex items-center justify-between">
@@ -222,6 +204,24 @@ export default function App() {
             <li className="flex justify-between">
               <span><strong>Explore Intern</strong> at Microsoft C&amp;AI</span>
               <span className="text-gray-500 whitespace-nowrap ml-4">May 2021 - Aug. 2021</span>
+            </li>
+          </ul>
+        </section>
+
+         {/* Ongoing Collaborations and Affiliations */}
+         <section className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+             Ongoing Collaborations and Affiliations
+            </h2>
+            <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
+          </div>
+          <ul className="space-y-3 text-gray-700">
+            <li className="flex justify-between">
+              <span><strong>Affiliate Researcher</strong> at privacy-tech-lab, Wesleyan University; working with Professor Sebastian Zimmeck on Global Privacy Controls.</span>
+            </li>
+            <li className="flex justify-between">
+              <span><strong>Affiliate Researcher</strong> at Max Planck Institute for Security and Privacy; working with Professor Asia Biega on consent and ownership models.</span>
             </li>
           </ul>
         </section>
@@ -377,7 +377,7 @@ export default function App() {
           <div className="space-y-2 text-gray-700">
             <p className="font-semibold">Responsible Computing &amp; Privacy Reading Group</p>
             <p>
-              I organize a weekly online reading group on privacy and responsible computing, open to researchers at all levels. Current members include professors, students, and industry/external researchers. We meet Fridays 3:30–4:30 PM EST. Email me if you'd like to join.
+              I organize a weekly online reading group on privacy and responsible computing, open to researchers at all levels. Current members include professors, students, and industry/external researchers. We meet Fridays 3:30-4:30 PM EST. Email me if you'd like to join.
             </p>
           </div>
         </section>
