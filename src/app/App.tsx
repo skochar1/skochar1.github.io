@@ -58,7 +58,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0">
               <ImageWithFallback
-                src="IMG_8376.HEIC"
+                src="IMG_8376.jpg"
                 alt="Profile"
                 className="w-64 h-64 object-cover"
               />
