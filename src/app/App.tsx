@@ -58,7 +58,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0">
               <ImageWithFallback
-                src="IMG_8376.jpg"
+                src="IMG_4625.png"
                 alt="Profile"
                 className="w-64 h-64 object-cover"
               />
@@ -72,8 +72,8 @@ export default function App() {
               <div className="space-y-2 text-gray-700">
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  <a href="mailto:shreyako@cmu.edu" className="hover:underline">
-                    shreyako@cmu.edu
+                  <a href="mailto:shreyako@andrew.cmu.edu" className="hover:underline">
+                    shreyako@andrew.cmu.edu
                   </a>
                 </div>
                 
@@ -355,6 +355,7 @@ export default function App() {
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
+            <li>PoPETS '27 - Tadpole Reviewer (Program Committee)</li>
             <li>PoPETS '26 - Artifacts Evaluation Committee</li>
             <li>W3C Privacy Working Group - Invited Expert</li>
             <li>ACM CAIS '26 - Artifacts Evaluation Committee</li>
