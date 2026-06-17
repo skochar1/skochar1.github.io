@@ -66,14 +66,14 @@ export default function App() {
             <div className="flex-1">
               <h1 className="text-4xl mb-3 text-gray-900">Shreya Kochar</h1>
               <p className="text-xl text-gray-700 mb-4">
-                Pre-doctoral Research Fellow
+                Incoming Ph.D. Student
               </p>
-              <p className="text-gray-700 mb-4">Carnegie Mellon University</p>
+              <p className="text-gray-700 mb-4">University of California, San Diego</p>
               <div className="space-y-2 text-gray-700">
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  <a href="mailto:shreyako@andrew.cmu.edu" className="hover:underline">
-                    shreyako@andrew.cmu.edu
+                  <a href="mailto:shkochar@ucsd.edu" className="hover:underline">
+                    shkochar@ucsd.edu
                   </a>
                 </div>
                 
