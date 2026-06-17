@@ -113,16 +113,15 @@ export default function App() {
             <h2 className="text-2xl mb-4 text-gray-900">About Me</h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                I am a Pre-doctoral Research Fellow at Carnegie Mellon SCS (CyLab/S3D), advised by Professor Norman Sadeh. I will be starting my Ph.D. in Fall 2026 at UCSD, advised by Professor Deepak Kumar.
+                I am an incoming Ph.D. student at UCSD, advised by Professor Deepak Kumar. Previously, I was a Pre-doctoral Research Fellow at Carnegie Mellon SCS (CyLab/S3D), advised by Professor Norman Sadeh.
               </p>
               <p>
                 My research interests lie at the intersection of privacy, security, law, and ethics. I'm very interested in game theory and formalisms for incentivizing corporations to follow privacy regulations.
-                My current work has to do with regulating IoT data collection and exploring state-level privacy legislature. I enjoy writing both technical and law review works.
+                My current work has to do with regulating data collection and exploring privacy legislature. I enjoy writing both technical and law review works.
               </p>
               <p>
                 Outside of research, I write on Substack about emerging
-                privacy issues and new papers in the field. I also enjoy lifting at
-                the gym and reading.
+                privacy issues and new papers in the field. I also enjoy working out and reading.
               </p>
             </div>
           </section>
