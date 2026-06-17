@@ -79,7 +79,7 @@ export default function App() {
                 
                 <div className="flex items-center gap-2">
                   <Building className="h-4 w-4" />
-                  <span>Pittsburgh, PA</span>
+                  <span>La Jolla, CA</span>
                 </div>
               </div>
               <div className="mt-4 flex flex-wrap items-center gap-2">
@@ -181,7 +181,7 @@ export default function App() {
           <ul className="space-y-3 text-gray-700">
             <li className="flex justify-between">
               <span><strong>Pre-doctoral Fellow</strong> at Carnegie Mellon University; advised by Professor Norman Sadeh</span>
-              <span className="text-gray-500 whitespace-nowrap ml-4">Oct. 2025 - Present</span>
+              <span className="text-gray-500 whitespace-nowrap ml-4">Oct. 2025 - June 2026</span>
             </li>
             <li className="flex justify-between">
               <span><strong>Founding Engineer</strong> at Avenio.ai</span>
@@ -355,6 +355,7 @@ export default function App() {
           </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             <li>PoPETS '27 - Tadpole Reviewer (Program Committee)</li>
+            <li>ISoPE '26 - Technical Program Committee</li>
             <li>PoPETS '26 - Artifacts Evaluation Committee</li>
             <li>W3C Privacy Working Group - Invited Expert</li>
             <li>ACM CAIS '26 - Artifacts Evaluation Committee</li>
