@@ -337,7 +337,7 @@ export default function App() {
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             {/* <li>Awarded a $1025 grant to attend USENIX PEPR '26.</li> */}
             <li>
-              Accepted to the{" "}
+              Invited to attend the{" "}
               <a
                 href="https://mlss2026.is.tuebingen.mpg.de/"
                 className="text-blue-600 hover:underline"
@@ -346,7 +346,7 @@ export default function App() {
               >
                 Machine Learning Summer School 2026
               </a>
-              {" "}with full funding (declined to attend).
+              {" "}with full funding.
             </li>
             <li>
               Accepted to the AI Policy Clinic & Research Group at the{" "}
