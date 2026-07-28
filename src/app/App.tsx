@@ -260,6 +260,23 @@ export default function App() {
             <div>
               <p className="text-gray-900 mb-1">
                 <strong>
+                  Evaluating the Impact of Personalization in Conversational Cybersecurity Assistants
+                </strong>
+              </p>
+              <p className="text-gray-700 mb-1">
+                Duesterwald, L., Jain, A., <b>Kochar, S.</b>, & Sadeh, N.
+              </p>
+              <p className="text-gray-600 mb-1">
+                COLM 2026 Workshop on HAIPS (non-archival)
+              </p>
+              <a href="#" className="text-blue-600 hover:underline text-sm">
+                [Paper (to be added)]
+              </a>
+            </div>
+
+            <div>
+              <p className="text-gray-900 mb-1">
+                <strong>
                   Quantifying Creepiness: Using Predictive Privacy to Measure Privacy Harms
                 </strong>
               </p>
