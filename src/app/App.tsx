@@ -252,7 +252,7 @@ export default function App() {
         <section className="mb-14">
           <div className="mb-6 flex items-center justify-between">
             <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
-             Projects and Publications (not up to date)
+             Projects and Publications
             </h2>
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           </div>
@@ -267,7 +267,7 @@ export default function App() {
                 Duesterwald, L., Jain, A., <b>Kochar, S.</b>, & Sadeh, N.
               </p>
               <p className="text-gray-600 mb-1">
-                COLM 2026 Workshop on HAIPS (non-archival)
+                The 2026 Human-Centered Privacy and Security for Language Models Workshop at COLM, forthcoming
               </p>
               <a href="#" className="text-blue-600 hover:underline text-sm">
                 [Paper (to be added)]
@@ -336,6 +336,18 @@ export default function App() {
           </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             {/* <li>Awarded a $1025 grant to attend USENIX PEPR '26.</li> */}
+            <li>
+              Accepted to the AI Policy Clinic & Research Group at the{" "}
+              <a
+                href="https://www.caidp.org/"
+                className="text-blue-600 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CAIDP
+              </a>
+              .
+            </li>
             <li>Awarded the Jacobs School of Engineering Fellowship for first-year Ph.D. funding.</li>
             {/* <li>Awarded a $1000 grant to attend USENIX NSDI '26.</li> */}
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
