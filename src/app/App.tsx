@@ -395,7 +395,7 @@ export default function App() {
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
-            <li>PoPETS '27 - Tadpole Reviewer (Program Committee)</li>
+            <li>PoPETS '27 - Tadpole Reviewer (Program Committee); Artifacts Evaluation Committee</li>
             <li>ISoPE '26 - Technical Program Committee</li>
             <li>PoPETS '26 - Artifacts Evaluation Committee</li>
             <li>W3C Privacy Working Group - Invited Expert</li>
@@ -412,9 +412,9 @@ export default function App() {
             <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
           </div>
           <div className="space-y-2 text-gray-700">
-            <p className="font-semibold">Responsible Computing &amp; Privacy Reading Group</p>
+            <p className="font-semibold">Updates incoming</p>
             <p>
-              I organize a weekly online reading group on privacy and responsible computing, open to researchers at all levels. Current members include professors, students, and industry/external researchers. We meet Fridays 3:30-4:30 PM EST. Email me if you'd like to join.
+              Check back for updates!
             </p>
           </div>
         </section>
