@@ -360,7 +360,7 @@ export default function App() {
               </a>
               .
             </li>
-            <li>Awarded the Jacobs School of Engineering Fellowship for first-year Ph.D. funding.</li>
+            <li>Awarded the Jacobs School of Engineering/Powell Fellowship for first-year Ph.D. funding.</li>
             {/* <li>Awarded a $1000 grant to attend USENIX NSDI '26.</li> */}
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
             <li>"Beyond Creepiness: Predictive Privacy" accepted to Privacy Law Scholars Conference (PLSC) 2025.</li>
