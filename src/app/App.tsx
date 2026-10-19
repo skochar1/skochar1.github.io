@@ -336,6 +336,7 @@ export default function App() {
           </div>
           <ul className="list-disc list-inside space-y-3 text-gray-700">
             {/* <li>Awarded a $1025 grant to attend USENIX PEPR '26.</li> */}
+            <li>Recognized as a Distinguished Reviewer at IMC `26 (STPC).</li>
             <li>
               Invited to attend the{" "}
               <a
@@ -348,7 +349,7 @@ export default function App() {
               </a>
               {" "}with full funding.
             </li>
-            <li>
+            {/* <li>
               Accepted to the AI Policy Clinic & Research Group at the{" "}
               <a
                 href="https://www.caidp.org/"
@@ -359,7 +360,7 @@ export default function App() {
                 CAIDP
               </a>
               .
-            </li>
+            </li> */}
             <li>Awarded the Jacobs School of Engineering/Powell Fellowship for first-year Ph.D. funding.</li>
             {/* <li>Awarded a $1000 grant to attend USENIX NSDI '26.</li> */}
             <li>Appointed by Professor Norman Sadeh to join the Smart City Privacy Technologies project (funded by NSF).</li>
