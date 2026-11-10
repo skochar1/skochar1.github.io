@@ -17,7 +17,7 @@ export default function Home() {
           <div className="flex-1">
             <h1 className="text-4xl mb-3 text-gray-900">Shreya Kochar</h1>
             <p className="text-xl text-gray-700 mb-4">
-              Incoming Ph.D. Student
+              Ph.D. Student
             </p>
             <p className="text-gray-700 mb-4">University of California, San Diego</p>
             <div className="space-y-2 text-gray-700">
@@ -69,6 +69,9 @@ export default function Home() {
 
             </p>
             <p>
+              At UCSD, I am co-president of Graduate Women in Computing (GradWiC) and serve on the CSE Graduate Student Council.
+            </p>
+            <p>
               Outside of research, I write on Substack about emerging privacy issues and new papers in the field. I also enjoy working out and reading.
             </p>
            
@@ -80,7 +83,7 @@ export default function Home() {
           <ul className="space-y-4 text-gray-700">
             <li>
               <p className="font-bold">University of California, San Diego</p>
-              <p>Incoming Ph.D. student</p>
+              <p>Ph.D. in Computer Science</p>
               <p className="text-gray-500 text-sm">Fall 2026 - Onwards</p>
             </li>
             <li>
@@ -353,20 +356,43 @@ export default function Home() {
           <li>ACM IMC '26 - Shadow Technical Program Committee (STPC)</li>
         </ul>
       </section>
-      {/* Community Opportunities */}
+      {/* Leadership and Community */}
       <section className="mb-14">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
-            Community Opportunities
+            Leadership and Community
           </h2>
           <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
         </div>
-        <div className="space-y-2 text-gray-700">
-          <p className="font-semibold">Updates incoming</p>
-          <p>
-            Check back for updates!
-          </p>
-        </div>
+        <ul className="space-y-3 text-gray-700">
+          <li className="flex justify-between">
+            <span>
+              <strong>Co-President</strong> of{" "}
+              <a
+                href="https://cse-gradwic.github.io/"
+                className="text-blue-600 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Graduate Women in Computing (GradWiC)
+              </a>
+              , UC San Diego{" "}
+              <a
+                href="https://www.linkedin.com/company/ucsd-gradwic"
+                className="text-blue-600 hover:underline text-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                [LinkedIn]
+              </a>
+            </span>
+            <span className="text-gray-500 whitespace-nowrap ml-4">Fall 2026 - Present</span>
+          </li>
+          <li className="flex justify-between">
+            <span><strong>Representative</strong> on the CSE Graduate Student Council, UC San Diego</span>
+            <span className="text-gray-500 whitespace-nowrap ml-4">Fall 2026 - Present</span>
+          </li>
+        </ul>
       </section>
     </div>
   );

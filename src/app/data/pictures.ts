@@ -8,11 +8,11 @@ export type Picture = {
 };
 
 export const pictures: Picture[] = [
-  { src: "2026_pics/IMG_3150.jpg", alt: "Photo from 2026" },
-  { src: "2026_pics/IMG_3162.jpg", alt: "Photo from 2026" },
-  { src: "2026_pics/IMG_3233.jpg", alt: "Photo from 2026" },
-  { src: "2026_pics/IMG_3698.jpeg", alt: "Photo from 2026" },
-  { src: "2026_pics/IMG_3831.jpg", alt: "Photo from 2026" },
+  { src: "2026_pics/IMG_3150.jpg", alt: "Rocky coastline and blue ocean on a clear day" },
+  { src: "2026_pics/IMG_3162.jpg", alt: "Sunset over the ocean from the beach" },
+  { src: "2026_pics/IMG_3233.jpg", alt: "Trail winding down sandstone cliffs to the sea" },
+  { src: "2026_pics/IMG_3698.jpeg", alt: "Group photo in front of a welcome screen at an event" },
+  { src: "2026_pics/IMG_3831.jpg", alt: "Friends sitting together outside a campus building" },
 ];
 
 // Year comes from the folder name, e.g. "2026_pics/IMG_1.jpg" -> "2026".
