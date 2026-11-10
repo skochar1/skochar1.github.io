@@ -348,6 +348,7 @@ export default function Home() {
           <div className="hidden h-px flex-1 bg-gray-200 ml-6 sm:block" />
         </div>
         <ul className="list-disc list-inside space-y-3 text-gray-700">
+          <li>ACM IMC '27 - Program Committee</li>
           <li>PoPETS '27 - Tadpole Reviewer (Program Committee); Artifacts Evaluation Committee</li>
           <li>ISoPE '26 - Technical Program Committee</li>
           <li>PoPETS '26 - Artifacts Evaluation Committee</li>
